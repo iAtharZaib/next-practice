@@ -39,10 +39,12 @@ export default function Page() {
             </a>
             , brought to you by Vercel.
           </p>
-          <img
-  src="/customers/amy-burns.png"
-  alt="Screenshots of the dashboard project showing desktop version"
-/>
+          <Image
+            width={500}
+            height={620}
+            src="/customers/amy-burns.png"
+            alt="Screenshots of the dashboard project showing desktop version"
+          />
           <Link
             href="/login"
             className="flex items-center gap-5 self-start rounded-lg bg-blue-500 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
